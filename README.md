@@ -8,7 +8,7 @@ Note Snatcher is a notes application written using Python and utilizing a SQLite
 
 When the program is first opened, a new sqlite database notebook is created in the user's home folder (for example, `C:\Users\%USERNAME` in Windows 7+ or `%USERPROFILE%`). There are no notes in the notebook and the view looks like this:
 
-![](main_view.png)
+![](http://i.imgur.com/W4rCqJY.png)
 
 A new note can be entered in one of two ways:
 
@@ -17,7 +17,7 @@ A new note can be entered in one of two ways:
 
 Now this dialog will appear:
 
-![](new_note.png)
+![](http://i.imgur.com/cvKn0B0.png)
 
 At the very top you can see the created and modified times showing when the note was first created and when the note was last edited respectively. Notice here in a brand new note no timestamp is shown.
 
@@ -40,7 +40,7 @@ From the main notes view, a selected note can be edited in several ways:
 
 Now the note edit dialog will appear and look like this:
 
-![](edit_note.png)
+![](http://i.imgur.com/lYuYrAK.png)
 
 Here we can see several of the fields have been entered.
 
@@ -50,7 +50,7 @@ Tags are words that have an associated meaning with the current note. In the exa
 
 The edit tags dialog can also be used which simplifies the task of adding tags as it shows a listing of all of the tags that are currently in the notebook and allows them to be quickly applied to the current note. Select a tag from the All Tags listing and either click the Use button or double-click on it to associate it with the current note and put it in the Current tags list box. Then to remove a tag association, select a tag and click on the Remove button or double-click on it.
 
-![](editing_tags.png)
+![](http://i.imgur.com/R4aDGUQ.png)
 
 ## Deleting Notes ##
 
@@ -64,7 +64,7 @@ To delete a note:
 
 Note Snatcher supports Unicode text so if you paste Unicode text into your note it will be saved just like regular text.
 
-![](text_format.png)
+![](http://i.imgur.com/1iqbYgg.png)
 
 ## Filtering Notes ##
 
@@ -74,7 +74,7 @@ First, go to the filter by tags dialog. This is done by clicking on the View men
 
 Now you will see a dialog that looks something like this:
 
-![](filtering_by_tags.png)
+![](http://i.imgur.com/AlWfKHQ.png)
 
 ### The edit tags dialog. ###
 
@@ -84,7 +84,7 @@ Once some tags have been added to the Current Tags list box, only notes that mat
 
 Here notes have been filtered so that only one note is being shown. On the status bar the program says that it is showing 1 out of 3 tags.
 
-![](filtered_view.png)
+![](http://i.imgur.com/fL08H6p.png)
 
 To return the view to normal and show all notes no matter the tag, click the Refresh button on the toolbar (fifth from left, the two green circular swirly arrows) or click on the View menu and select Show All Notes.
 
@@ -94,7 +94,7 @@ To quickly find a note, the notebook can be searched. To do this, just enter the
 
 The search results appear in the main listing. Here we have searched for "unicode" and one note was found which had the search term in its subject. The status bar also alerts us that search results are being shown.
 
-![](search_results.png)
+![](http://i.imgur.com/OymLxuV.png)
 
 To return the notes listing to its normal view that shows all notes, click the Refresh button on the toolbar (fifth from left, the two green circular swirly arrows) or click on the View menu and select Show All Notes.
 
@@ -114,7 +114,7 @@ As mentioned, the only format that can currently be imported is XML that has pre
 
 Access the options through File > Options.... There are two main sections, Notebook settings and Appearance settings.
 
-![](prefs.png)
+![](http://i.imgur.com/u3TTbSE.png)
 
 Notebook settings let you select whether or not to automatically open the last used notebook when you first start the program, whether or not to show a confirmation when you delete a note, and whether or not you want to save deleted notes to the trash or delete them permanently. These help you deal with those situations where you might accidentally delete a note before you are done with it by showing you a confirmation when deleting or keeping them safe in the trash can for later reviewal.
 
