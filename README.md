@@ -124,7 +124,7 @@ The options are stored in the user's home folder (`%USERPROFILE%`, for example, 
 
 ## License
 
-
+GNU General Public License v3. [See LICENSE](LICENSE)
 
 ## Credits ##
 
