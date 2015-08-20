@@ -4,6 +4,12 @@
 
 Note Snatcher is a notes application written using Python and utilizing a SQLite database.  The program keeps track of notes and allows the user to view the different notes by date, subject, or with tags.  Because having lots of notes will make it hard to find certain ones, the user is able to filter/find the notes by the tags to make it easier to find notes matching certain criteria.  There is also some simple searching to even more quickly find something that has been entered.  Python is used for the program itself, wxPython is used for the GUI, and the data is stored in a SQLite database.  It is also possible to import and export the data to and from XML so that the data is not locked up in the database.
 
+## Requirements ##
+
+* [Python 2.7](https://www.python.org/)
+
+* [wxPython](http://www.wxpython.org/index.php)
+
 ## Creating Notes ##
 
 When the program is first opened, a new sqlite database notebook is created in the user's home folder (for example, `C:\Users\%USERNAME` in Windows 7+ or `%USERPROFILE%`). There are no notes in the notebook and the view looks like this:
